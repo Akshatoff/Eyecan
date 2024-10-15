@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coming+Soon&family=Montserrat&family=Montserrat+Alternates&family=Open+Sans&family=Poppins&family=Roboto&display=swap');
+
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Coming Soon', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+:root {
+    --primary: #FD5D21;
+    --bg: #fff;
+    --text: #292929;
+    --secondarytext: #818181;
+
+}
+
+body,
+html {
+width: 100%;
+height: 100%;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg);
+}
+
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.text {
+    color: var(--text);
+}
+
+#heading {
+    font-family: "Poppins", sans-serif;
+    width: 50rem;
+    text-align: center;
+    font-weight: 800;
+    
+}
+
+#subhead {
+    color: var(--secondarytext);
+    width: 30rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: 1rem 3rem;
+    text-align: center;
+    color: var(--bg);
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.btn1 {
+    font-size: 1.2rem;
+    padding: 1rem 3rem;
+    text-align: center;
+    color: var(--secondarytext);
+    background-color: var(--secondarytext)transparent;
+    border: 2px solid var(--secondarytext);
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.btn-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.btn1:hover {
+    background-color: var(--secondarytext);
+    color: var(--text);
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    margin-top: -12rem;
+    border-radius: 10px;
+}
+
+#heading-about {
+    font-size: 5rem;
+    font-family: "Poppins", sans-serif;
+    color: var(--primary);
+    padding-top: 2rem;
+    text-align: center;
+}
+
+
+#description {
+    width: 80rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+
+#catheading {
+    font-size: 5rem;
+    font-family: "Poppins", sans-serif;
+    color: var(--primary);
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.card-container {
+    margin-top: 5rem;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+.card {
+    width: 15rem;
+    height: 20rem;
+    background-image: url("https://picsum.photos/300/600");
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.card:hover {
+    scale: 1.2;
+}
+
+.link {
+    text-decoration: none;
+    color: none;
+}
+
+#card-title {
+    margin-bottom: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+}
+
+.audio-container {
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.pod-container {
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
