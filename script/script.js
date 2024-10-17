@@ -1,4 +1,7 @@
-const lenis = new Lenis();
+const width = window.innerWidth();
+
+if (width > 700) {
+  const lenis = new Lenis();
 
 // Listen for the scroll event and log the event data
 lenis.on('scroll', (e) => {
@@ -12,3 +15,5 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
+}
+
