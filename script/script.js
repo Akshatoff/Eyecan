@@ -1,4 +1,4 @@
-const width = window.innerWidth();
+const width = window.innerWidth;
 
 if (width > 700) {
   const lenis = new Lenis();
